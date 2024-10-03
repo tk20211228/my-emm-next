@@ -93,12 +93,14 @@ source ~/.zshrc
    連番を入力する
 - [javaScript(ES6) code snippets]
 
-  ```tsx
-  crg;
-  と入力し補完する;
+  crg
+  と入力し補完すると
+
+  ```js
   console.log(object);
-  と入力できる;
   ```
+
+  と入力できる
 
 - [Paste Image]
   1. shift + command + 4 で　カーソルで範囲指定した範囲をし、`control` を　押下しながらマウスのクリックを話す
@@ -111,7 +113,7 @@ source ~/.zshrc
 - コンポーネント
 
   ```tsx
-  Header/ でtabキーを押すと、<Header />
+  Header/ でtabキーを押すと、<Header /> と補完される
   ```
 
 - 不要な import を削除
@@ -120,34 +122,38 @@ source ~/.zshrc
   3. 「Organize imports in Folder」
 - emmet
 
-  ```tsx
   ul>li で補完すると
-      <ul>
-        <li></li>
-      </ul>
-  となる
-  ```
 
   ```tsx
+  <ul>
+    <li></li>
+  </ul>
+  ```
+
+  となる
+
   lorem
   と入力し補完すると
 
+  ```tsx
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
   perferendis quas quaerat eius quod deserunt quidem, alias animi vitae
   unde perspiciatis recusandae cum, totam officia provident maxime a
   eveniet. Autem?
+  ```
 
   とダミーの文字列が入力される
 
   lorem4
   と入力し補完すると
 
+  ```tsx
   Lorem ipsum dolor sit.
-
-  と4つの単語で並べる
   ```
 
--
+  と 4 つの単語で並べる
+
+- test
 -
 -
 -
